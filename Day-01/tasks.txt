@@ -1,0 +1,4 @@
+Create a React functional component called Greeting that accepts a name prop and displays Hello, {name}!.
+Create a Counter component using useState. Add Increment, Decrement, and Reset buttons.
+Create a Todo component where a user can type a task and add it to a list using useState. for tasks only use task name, no additional information
+Create a UserList component that receives an array of users through props and displays them using .map().
