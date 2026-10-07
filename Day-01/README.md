@@ -1,16 +1,47 @@
-# React + Vite
+# Day 01: React Fundamentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React practice project built with Vite to revise components, props, state, event handling, and rendering lists.
 
-Currently, two official plugins are available:
+## Practice Tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Greeting:** Receives a name through props and displays `Hello, {name}!`.
+- **Counter:** Uses `useState` with Increment, Decrement, and Reset buttons.
+- **Todo:** Adds task names to a list and clears the input after adding a task.
+- **UserList:** Receives an array of users through props and displays their names using `.map()`.
 
-## React Compiler
+The practice questions are saved in `tasks.txt`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run
 
-## Expanding the ESLint configuration
+Make sure Node.js and npm are installed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+From the repository root:
+
+```bash
+cd Day-01
+npm install
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+Press `Ctrl+C` in the terminal to stop the app.
+
+## Build and Preview
+
+From inside `Day-01`:
+
+```bash
+npm run build
+npm run preview
+```
+
+## What I Practiced
+
+- Creating functional components
+- Passing and destructuring props
+- Managing state with `useState`
+- Handling button clicks and input changes
+- Creating a controlled input
+- Updating arrays in state
+- Rendering lists with `.map()` and keys
