@@ -6,7 +6,6 @@ function ToDo() {
   const [tasks, setTasks] = useState([]);
 
   function addTask(e) {
-
     const taskName = task;
     setTasks (prevtasks => [...prevtasks, taskName]);
     setTask('');
