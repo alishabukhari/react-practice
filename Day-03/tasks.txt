@@ -1,0 +1,9 @@
+10. Fetch API Data — PostList
+
+Create a PostList component that:
+
+- Uses useEffect to fetch posts from:
+  https://jsonplaceholder.typicode.com/posts
+- Stores the posts using useState.
+- Displays the title of each post using .map().
+- Displays "Loading..." while the data is being fetched.
