@@ -1,0 +1,13 @@
+Task 11: Accordion Component
+Create an Accordion component that displays a question and its answer.
+When the user clicks the question, toggle the answer's visibility.
+Use useState to manage the open/closed state.
+Clicking again should hide the answer.
+ 
+
+Task 12: Character Counter
+Create a CharacterCounter component with a text input or textarea.
+Display the number of characters entered.
+Display the remaining characters out of a maximum of 100.
+Prevent the user from entering more than 100 characters.
+ 
