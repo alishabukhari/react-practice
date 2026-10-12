@@ -3,14 +3,14 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 function PostList() {
-    const [post, setPost] = useState('');
+    const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         fetch ('https://jsonplaceholder.typicode.com/posts')
         .then((response) => response.json())
         .then((data) => {
-            setPost(data);
+            setPosts(data);
             setLoading(false);
         });
     }, []);
@@ -24,7 +24,7 @@ function PostList() {
         <h2>Posts</h2>
 
         <ol>
-        {post.map((post) => (
+        {posts.map((post) => (
             <li key={post.id}>
                 <h3>{post.title}</h3>
             </li>
